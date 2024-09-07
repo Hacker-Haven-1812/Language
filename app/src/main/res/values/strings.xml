@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Language</string>
+    <string name="is_test" translatable="true">Lorem ipsum dolor sit amet hi this is test text for SIH are you ready for it!!!</string>
+    <string name="hindi">Hindi</string>
+    <string name="english">English</string>
+    <string name="select_language">Select Language</string>
+</resources>

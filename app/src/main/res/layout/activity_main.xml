@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/tv_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_language"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp" />
+
+    <!-- RadioGroup for language selection -->
+    <RadioGroup
+        android:id="@+id/rg_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <!-- English RadioButton -->
+        <RadioButton
+            android:id="@+id/rb_english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/english"
+            android:visibility="visible" />
+
+        <!-- Hindi RadioButton -->
+        <RadioButton
+            android:id="@+id/rb_hindi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hindi"
+            android:visibility="visible" />
+    </RadioGroup>
+
+    <!-- Output TextView -->
+    <TextView
+        android:id="@+id/tv_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/is_test"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp" />
+</LinearLayout>
